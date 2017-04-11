@@ -1,4 +1,4 @@
-require './game.rb'
-require './player.rb'
-require './turn.rb'
-require './question.rb'
+require_relative 'mathgame'
+
+mathgame = MathGame.new
+mathgame.game_start
